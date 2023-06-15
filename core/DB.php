@@ -9,8 +9,7 @@ class DB
         $this->pdo = new \PDO("mysql: host={$hostname};dbname={$database}",$login,$password);
     }
 
-    public function select($tableName,$fieldslist = "*",$conditionArray = null)
-    {
+    public function select($tableName,$fieldslist = "*",$conditionArray = null){
         if (is_string($fieldslist)) {
             $fieldslistString = $fieldslist;
         }

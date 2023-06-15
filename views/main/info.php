@@ -4,7 +4,7 @@ core\Core::getInstance()->pageParams['title'] = 'Про  SpStor'
 
 
 <main>
-  <div class="px-4 py-5 my-5 text-center border-bottom">
+  <div class="px-4 py-5 text-center border-bottom">
     <h1 class="display-5 mb-5 fw-bold">SpStor</h1>
     <div class="col-lg-6 mx-auto ">
       <p class="lead mb-4"><b>SpStor</b> - чудова платформа для гравців та розробників. Вона надає людям змогу швидко 

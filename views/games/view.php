@@ -3,7 +3,6 @@ use models\Library;
 /**@var array $game */
 core\Core::getInstance()->pageParams['title'] = "{$game['name']}"
 ?>
-<hr class="featurette-divider mb-5">
 <h1 class="mb-5 fw-normal text-center"><?= $game['name'] ?></h1>
 <?php $foto = 'files/game/' . $game['photo'] ?>
 <hr class="featurette-divider mb-5">
@@ -19,4 +18,5 @@ core\Core::getInstance()->pageParams['title'] = "{$game['name']}"
   <div class="col-md-5 order-md-1">
     <img src="/<?= $foto ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
   </div>
+  
 </div>

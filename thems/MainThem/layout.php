@@ -25,7 +25,7 @@ else
 </head>
 
 <body style="background-color: #23282c; color:white">
-    <header class="p-3 " style="background-color: #1a1d20;" >
+    <header class="p-3 " style="background-color: #231335;" >
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -50,13 +50,13 @@ else
         </div>
     </header>
     
-    <div  style="min-height: 70vh">
+    <div  style="min-height: 70v; background-color: #35204E" >
         <?= $content ?>
     </div>
-    <footer >
-        <div class="px-4 py-5 my-3 text-center border-bottom">
-        </div>
-        <p class="text-center ">© 2023 By @spluxa4</p>
+    <footer style="background-color: #231335;">
+        <div class="px-4 py-5 text-center border-bottom" >
+            <p class="text-center ">© 2023 By @spluxa4</p>
+        </div>  
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
