@@ -50,7 +50,7 @@ else
         </div>
     </header>
     
-    <div  style="min-height: 70v; background-color: #35204E" >
+    <div  style="min-height: 70vh; background-color: #35204E" >
         <?= $content ?>
     </div>
     <footer style="background-color: #231335;">

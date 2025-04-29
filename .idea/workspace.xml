@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3db0b55c-f937-40ac-876e-70888ce925b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFK/categori/гон.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFK/categori/щот.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thems/MainThem/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.pdf.p7s" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2vnwibs8UPe1HBVSh1bK75hT6Iw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Controller.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/core/Controller.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.25659.45" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.25659.45" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3db0b55c-f937-40ac-876e-70888ce925b9" name="Changes" comment="" />
+      <created>1744794273549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744794273549</updated>
+      <workItem from="1744794275145" duration="323000" />
+      <workItem from="1744794616863" duration="117000" />
+      <workItem from="1744794799777" duration="441000" />
+      <workItem from="1744795250370" duration="7000" />
+      <workItem from="1744795282840" duration="298000" />
+      <workItem from="1744795589931" duration="600000" />
+      <workItem from="1744990091700" duration="90000" />
+      <workItem from="1745245241065" duration="1928000" />
+      <workItem from="1745255012143" duration="1538000" />
+      <workItem from="1745310409745" duration="525000" />
+      <workItem from="1745312793068" duration="227000" />
+      <workItem from="1745326346841" duration="304000" />
+      <workItem from="1745348175629" duration="1304000" />
+      <workItem from="1745355166001" duration="1126000" />
+      <workItem from="1745356627451" duration="109000" />
+      <workItem from="1745390259367" duration="10000" />
+      <workItem from="1745491085777" duration="2573000" />
+      <workItem from="1745503174290" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

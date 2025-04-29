@@ -20,7 +20,7 @@ core\Core::getInstance()->pageParams['title'] = 'Додавання Гри'
   <div class="mb-2">
     <label for="categorie_id" class="form-label">Назва Категорії</label>
     <select class="form-control" id="categorie_id" name="categorie_id" placeholder="">
-      <?php foreach($categoris as $categori) : ?>
+      <?php foreach($categori as $categori) : ?>
       <option <?php if($categori['id'] == $categori_id) echo 'selected'; ?> value="<?=$categori['id']?>"><?=$categori['name']?></option>
       <?php endforeach; ?>
     </select>
