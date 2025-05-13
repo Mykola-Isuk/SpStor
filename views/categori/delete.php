@@ -15,7 +15,7 @@ core\Core::getInstance()->pageParams['title'] = 'Видаленя Категор
   </svg>
   <div>
     <b>УВАГА!</b>
-    <p>Ви видаляєте категорію (<?= $categori['name'] ?>) , ви впевнені в своїх діях ?</p>
+    <p>Ви видаляєте категорію (<?= $categori['name'] ?>), ви впевнені у своїх діях ?</p>
   </div>
 </div>
 <div class="card-body ">

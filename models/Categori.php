@@ -6,7 +6,7 @@ use core\Utils;
 use core\Core;
 class Categori
 {
-  protected static $tableName = 'сategorie';
+  protected static $tableName = 'categori';
   public static function addCat($CatName , $photoPath){
 
     do {

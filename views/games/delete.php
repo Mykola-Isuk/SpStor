@@ -14,7 +14,7 @@ core\Core::getInstance()->pageParams['title'] = 'Видаленя Гри'
   </svg>
   <div>
     <b>УВАГА!</b>
-    <p>Ви видаляєте гру (<?= $game['name'] ?>) , ви впевнені в своїх діях ?</p>
+    <p>Ви видаляєте гру (<?= $game['name'] ?>), ви впевнені у своїх діях ?</p>
   </div>
 </div>
 <div class="card-body ">

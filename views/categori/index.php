@@ -7,7 +7,7 @@ core\Core::getInstance()->pageParams['title'] = 'Категорії'
 <div class="row row-cols-1 row-cols-md-3 g-4 categoris-list">
   <?php foreach ($rows as $row) : ?>
     <div class="col">
-      <a href="/categori/view/<?= $row['id'] ?>"class="card-link">
+      <a href="/categori/view/<?= $row['id'] ?>" class="card-link">
        <center><div class="card" style="width: 18rem;background-color: #58515c;">
           <?php $filePath = 'files/categori/' . $row['photo']; ?>
           <?php if (is_file($filePath)) : ?>

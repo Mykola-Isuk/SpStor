@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db0b55c-f937-40ac-876e-70888ce925b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFK/categori/гон.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFK/categori/щот.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thems/MainThem/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/games/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ІПЗ-21-4 Дубницький Ярослав.pdf.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Categori.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Categori.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +91,14 @@
       <workItem from="1745390259367" duration="10000" />
       <workItem from="1745491085777" duration="2573000" />
       <workItem from="1745503174290" duration="5000" />
+      <workItem from="1746005166763" duration="1077000" />
+      <workItem from="1746026490509" duration="2522000" />
+      <workItem from="1746437896955" duration="10308000" />
+      <workItem from="1746534417395" duration="1233000" />
+      <workItem from="1746538032789" duration="2026000" />
+      <workItem from="1746540358401" duration="1945000" />
+      <workItem from="1747049520325" duration="1015000" />
+      <workItem from="1747067787144" duration="1096000" />
     </task>
     <servers />
   </component>
