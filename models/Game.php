@@ -12,7 +12,7 @@ class Game
 
     do {
       $fileName = uniqid() . '.png';
-      $newPath = "spstor/files/game/{$fileName}";
+      $newPath = "SpStor/files/game/{$fileName}";
     } while (file_exists($newPath));
     
     move_uploaded_file($photoPath,$newPath);

@@ -5,15 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db0b55c-f937-40ac-876e-70888ce925b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SpStor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpStor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CategoriController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CategoriController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/GamesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/LibraryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/LibraryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/NewsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/categori/63c5473436265.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/categori/Шутер.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/categori/63c5498bec22c.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/categori/Стелс-ігри.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/categori/63c56b5e4e32e.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/categori/гонки.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/categori/63c56dd2b4697.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/categori/free.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/categori/63c57c3654a2c.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/categori/rpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c1d4e2e68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c23346c31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c28a0d668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c2ac56e05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c2cab5c41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c2e7db2d5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c5c31ee7b93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6cd72337f4.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Assassin`s-Creed-Odyssey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6cfa48cf06.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Horizon-Zero-Dawn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6d25e14cd8.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/GTA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6d37290077.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/The-Witcher-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e01319f04.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Red-Dead-Redemption-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e2e79e9b7.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/codwz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e45a23c13.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Doom-Eternal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e4cc8c220.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/doom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e703c7515.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Counter-Strike-Global-Offensive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6e978412a1.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Far-Cry-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c6eb01f2c01.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Definitive-Edition-Battlefield-V.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c707beef354.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/New-World.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c70a6a2952b.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Black-Desert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c70b8222516.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/EVE-Online.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c70d5fae1f6.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/The-Elder-Scrolls-Online.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7dbfc1234f.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Metal-Gear-Solid-V.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7dd44b5c03.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/The-Last-of-Us.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7dde83a720.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Hitman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7df17c0eb7.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Dishonored.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7f08e515b4.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Forza-Horizon-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7f19075e50.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/f-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7f3af3f766.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Need-for-Speed-Payback.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c7f5615c8f6.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/ASSETTO-CORSA-COMPETIZIONE-THE-OFFICIAL-BLANCPAIN-GT-SERIES-GAME.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c86fc36b35a.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Dota.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c86ff694f1c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c8709f2ece9.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/Crossout!-Craft.-Ride.-Destroy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/63c87164c3f64.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/game/War-Thunder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Categori.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Categori.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Library.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Library.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spstor.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spstor.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thems/MainThem/css/cat.css" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/css/cat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thems/MainThem/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thems/MainThem/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/categori/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/index-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/index-admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/categori/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/categori/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/games/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/library/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/library/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/user/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/register.php" afterDir="false" />
     </list>
@@ -99,6 +172,10 @@
       <workItem from="1746540358401" duration="1945000" />
       <workItem from="1747049520325" duration="1015000" />
       <workItem from="1747067787144" duration="1096000" />
+      <workItem from="1747213430832" duration="106000" />
+      <workItem from="1747221470796" duration="7596000" />
+      <workItem from="1747310505450" duration="4749000" />
+      <workItem from="1747328945724" duration="1151000" />
     </task>
     <servers />
   </component>
