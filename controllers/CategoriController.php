@@ -101,6 +101,12 @@ class CategoriController extends Controller
 
   public function viewAction($params){
     $id = intval($params[0]);
+    if ($id == 6) {
+          $id = 2;
+      }
+      if ($id == 7) {
+          $id = 3;
+      }
     $categori = Categori::getCatId($id);
     $games = Game::getGameInCat($id);
     return $this->render(null,[

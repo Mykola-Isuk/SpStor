@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `user` (
     `level` TINYINT DEFAULT '0',
     PRIMARY KEY (`id`),
     UNIQUE KEY `login` (`login`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця бібліотеки користувача
 CREATE TABLE IF NOT EXISTS `library` (
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `library` (
                                          PRIMARY KEY (`id`),
     UNIQUE KEY `user_id_game_id` (`user_id`,`game_id`),
     KEY `game_id` (`game_id`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця відгуків
 CREATE TABLE IF NOT EXISTS `reviews` (
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `reviews` (
                                          `rating` TINYINT CHECK (`rating` BETWEEN 1 AND 5),
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця сесій
 CREATE TABLE IF NOT EXISTS `sessions` (
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `sessions` (
     `expires_at` DATETIME NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `session_token` (`session_token`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця логів авторизації
 CREATE TABLE IF NOT EXISTS `login_logs` (
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS `login_logs` (
                                             `login_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
                                             `ip_address` VARCHAR(45),
     PRIMARY KEY (`id`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця замовлень (майбутнє розширення)
 CREATE TABLE IF NOT EXISTS `orders` (
@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
                                         `order_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
                                         `total_price` DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (`id`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Таблиця деталей замовлення (ігри в замовленні)
 CREATE TABLE IF NOT EXISTS `order_items` (
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `order_items` (
                                              `game_id` INT NOT NULL,
                                              `price_at_purchase` DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (`id`)
-    ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Початкові дані
 INSERT INTO `categori` (`name`, `photo`) VALUES
@@ -129,8 +129,8 @@ INSERT INTO `games` (`name`, `photo`, `categorie_id`, `price`, `short_text`, `vi
 
 
 INSERT INTO `user` (`login`, `password`, `nick_name`, `level`) VALUES
-                                                                   ('admin', MD5('admin123'), 'Admin', 1),
-                                                                   ('user', MD5('user123'), 'User1', 0);
+                                                                   ('admin@student.ztu.edu.ua', MD5('admin123'), 'Admin', 1),
+                                                                   ('user@student.ztu.edu.ua', MD5('user123'), 'User1', 0);
 INSERT INTO `library` (`user_id`, `game_id`) VALUES
                                                  (2, 3),
                                                  (2, 4),

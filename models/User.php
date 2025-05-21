@@ -63,12 +63,12 @@ class User
     }
 
     public static function getCurAutUser(){
-        return $_SESSION['user'];
+        return $_SESSION['user'] ?? null;
     }
 
     public static function isAdmin(){
         $user = self::getCurAutUser();
-        return $user['level'] == 1;
+        return isset($user) && $user['level'] == 1;
     }
     public static function hashPassword($password){
         return md5($password);
