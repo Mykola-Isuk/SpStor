@@ -6,13 +6,42 @@
   <component name="ChangeListManager">
     <list default="true" id="3db0b55c-f937-40ac-876e-70888ce925b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/CategoriController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CategoriController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/GamesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/LibraryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/LibraryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/ASSETTO-CORSA-COMPETIZIONE-THE-OFFICIAL-BLANCPAIN-GT-SERIES-GAME.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Assassin`s-Creed-Odyssey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Black-Desert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Counter-Strike-Global-Offensive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Crossout!-Craft.-Ride.-Destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Definitive-Edition-Battlefield-V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Dishonored.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Doom-Eternal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Dota.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/EVE-Online.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Far-Cry-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Forza-Horizon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/GTA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Hitman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Horizon-Zero-Dawn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Metal-Gear-Solid-V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Need-for-Speed-Payback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/New-World.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/Red-Dead-Redemption-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/The-Elder-Scrolls-Online.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/The-Last-of-Us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/The-Witcher-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/War-Thunder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/codwz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/doom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/game/f-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Game.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Library.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Library.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spstor.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spstor.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/games/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thems/MainThem/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/thems/MainThem/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categori/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/categori/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/games/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/games/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/library/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/library/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +54,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -42,12 +72,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/wamp64/Domains/coursework/SpStor&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -105,10 +141,40 @@
       <workItem from="1747649178123" duration="8307000" />
       <workItem from="1747737553218" duration="5986000" />
       <workItem from="1747743750661" duration="301000" />
+      <workItem from="1747843338241" duration="290000" />
+      <workItem from="1748267225769" duration="10474000" />
+      <workItem from="1748418781442" duration="16087000" />
+      <workItem from="1748516167452" duration="1336000" />
+      <workItem from="1748522886265" duration="4370000" />
+      <workItem from="1748780522362" duration="1077000" />
+      <workItem from="1748862437070" duration="3082000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

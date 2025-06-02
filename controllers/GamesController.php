@@ -13,22 +13,22 @@ class GamesController extends Controller
 {
     public function indexAction()
     {
-        // Припустимо, ви отримуєте дані для гри (rows) та категорії (category)
-        $rows = $this->model->getGames();
-        $category = $this->model->getCategory();
+        $rows = Game::getAllGames();
+        $category = Categori::getAllCat();
 
-        // Передаємо обидві змінні у вигляд:
-        $this->render('games/index', [
+        return $this->render(null, [
             'rows' => $rows,
-            'category' => $category,  // <- Ось сюди потрібно додати
+            'category' => $category
         ]);
     }
 
-
-    public function addAction($params){
-        $categori_id = intval($params[0]);
-        if (empty($categori_id))
+    public function addAction($params)
+    {
+        $categori_id = intval($params[0] ?? 0);
+        if (empty($categori_id)) {
             $categori_id = null;
+        }
+
         $categoris = Categori::getAllCat();
 
         if (Core::getInstance()->requestMethod === 'POST') {
@@ -36,13 +36,13 @@ class GamesController extends Controller
             $errors = [];
 
             if (empty($_POST['name'])) {
-                $errors['name'] = 'Дане поле не може бути прожнім';
+                $errors['name'] = 'Дане поле не може бути порожнім';
             }
             if ($_POST['price'] < 0) {
-                $errors['price'] = 'Дане поле не може бути відємним';
+                $errors['price'] = 'Ціна не може бути від’ємною';
             }
             if (empty($_POST['short_text'])) {
-                $errors['short_text'] = 'Дане поле не може бути прожнім';
+                $errors['short_text'] = 'Опис не може бути порожнім';
             }
 
             if (empty($errors)) {
@@ -72,14 +72,14 @@ class GamesController extends Controller
         ]);
     }
 
-    public function viewAction($params){
+    public function viewAction($params)
+    {
         $id = intval($params[0]);
         $game = Game::getGameId($id);
 
         if ($game == null)
             return $this->error(404);
 
-        // Отримати бібліотеку користувача, якщо авторизований
         $libraryGameIds = [];
         if (isset($_SESSION['user'])) {
             $userId = $_SESSION['user']['id'];
@@ -93,32 +93,43 @@ class GamesController extends Controller
         ]);
     }
 
-    public function deleteAction($params){
+    public function deleteAction($params)
+    {
         $id = intval($params[0]);
-        $yes = boolval($params[1] === 'yes');
+        $yes = isset($params[1]) && $params[1] === 'yes';
 
         if (!User::isAdmin())
             return $this->error(403);
 
-        if ($id > 0) {
-            $game = Game::getGameId($id);
-            if ($game == null)
-                return $this->error(404);
+        $game = Game::getGameId($id);
+        if ($game == null)
+            return $this->error(404);
 
-            if ($yes) {
-                $filePath = 'files/categori/' . $game['photo'];
-                if (is_file($filePath))
-                    unlink($filePath);
+        if ($yes) {
+            $filePath = 'files/game/' . $game['photo'];
+            if (is_file($filePath))
+                unlink($filePath);
 
-                Game::deleteGame($id);
-                return $this->redirect("/categori/index");
-            }
+            Game::deleteGame($id);
+            return $this->redirect("/categori/index");
+        }
 
-            return $this->render(null, [
-                'game' => $game
-            ]);
-        } else {
+        return $this->render(null, [
+            'game' => $game
+        ]);
+    }
+
+    public function removeFromLibraryAction($params)
+    {
+        $gameId = intval($params[0] ?? 0);
+
+        if (!User::isLogged()) {
             return $this->error(403);
         }
+
+        $user = User::getCurrent();
+        Library::removeFromLibrary($user['id'], $gameId);
+
+        return $this->redirect('/library/index');
     }
 }

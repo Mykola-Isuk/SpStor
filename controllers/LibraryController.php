@@ -3,7 +3,6 @@
 namespace controllers;
 
 use core\Controller;
-use core\Core;
 use models\Game;
 use models\Library;
 
@@ -17,14 +16,8 @@ class LibraryController extends Controller
         }
 
         $userId = $_SESSION['user']['id'];
-
-        // Отримати всі записи бібліотеки користувача
         $rows = Library::getGame($userId);
-
-        // Отримати всі ігри (якщо потрібні у списку)
         $games = Game::getAllGames();
-
-        // Витягнути з $rows лише id ігор у бібліотеці для простішої перевірки
         $libraryGameIds = array_column($rows, 'game_id');
 
         return $this->render(null, [
@@ -72,7 +65,6 @@ class LibraryController extends Controller
         $this->redirect('/library/index');
     }
 
-    // Метод для перегляду конкретної гри з можливістю додати/видалити її з бібліотеки
     public function viewAction()
     {
         if (!isset($_SESSION['user'])) {
@@ -101,5 +93,28 @@ class LibraryController extends Controller
             'game' => $game,
             'libraryGameIds' => $libraryGameIds,
         ]);
+    }
+
+
+    public function deleteMultipleAction()
+    {
+        if (!isset($_SESSION['user'])) {
+            $this->redirect('/user/login');
+            return;
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['selected_games'])) {
+            $userId = $_SESSION['user']['id'];
+
+            foreach ($_POST['selected_games'] as $gameId) {
+                $gameId = (int)$gameId;
+
+                if (Library::isGameInLibrary($userId, $gameId)) {
+                    Library::deleteGame($userId, $gameId);
+                }
+            }
+        }
+
+        $this->redirect('/library/index');
     }
 }
